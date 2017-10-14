@@ -1,0 +1,34 @@
+.card{
+  top:25vh;
+  left:20vw;
+  width:30vw;
+  height:25vw;
+}
+
+.card-body{
+  text-align:center;
+  .btn{
+    width:20em;
+  }
+  .btn:hover{
+    width:25em;
+  }
+
+  #fb{
+    background: #3B5998 url(../../assets/images/facebook.svg) no-repeat 10px -10px;
+    background-size: 47px;
+    color: #fff;
+  }
+  #google{
+    border: 1px solid #95989A;
+    background: #fff url(../../assets/images/google.svg) no-repeat 25px;
+    background-size: 25px;
+    color:#000 !important;
+  }
+  #email{
+    background: #ECECEC url(../../assets/images/email.svg) no-repeat 25px;
+    background-size: 25px;
+    color:#000 !important;
+  }
+}
+

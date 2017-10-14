@@ -1,0 +1,25 @@
+<div class="container">
+<!--Card-->
+<div class="card">
+    <!--Card image-->
+    <div class="view hm-white-slight waves-light" mdbRippleRadius>
+        <!--<img src="assets/images/user.svg" height="100px" width="100px" class="img-fluid" alt="Home">-->
+        <a>
+            <div class="mask"></div>
+        </a>
+    </div>
+    <!--Card content-->
+    <div class="card-body">
+        <!--Title-->
+        <h4 class="card-title">Welcome!!</h4>
+        <!--Text-->
+        <p class="card-text">Please login with any one option below</p><br>
+        <!-- <button type="button" (click)="loginFb()" id="fb" class="btn" mdbRippleRadius>Login With Facebook</button><br><br> -->
+        <button type="button" (click)="loginGoogle()" id="google" class="btn" mdbRippleRadius>Login With Google</button><br><br>
+        <button type="button" routerLink="/login-email" id="email" class="btn" mdbRippleRadius>Email</button><br><br>
+        <a routerLink="/signup" routerLinkActive="active" class="alc">No account? <strong>Create one here</strong></a>
+    </div>
+
+</div>
+<!--/.Card-->
+</div>

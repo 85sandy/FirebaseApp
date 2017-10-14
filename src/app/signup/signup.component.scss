@@ -1,0 +1,21 @@
+.card{
+  top:25vh;
+  left:20vw;
+  width:30vw;
+  height:25vw;
+  .fa{
+    padding-top: 10px;
+  }
+  a{
+      padding: 0px 0px 0px 10px;
+  }
+}
+.card-body{
+  text-align:center;
+  .btn{
+    width:20em;
+  }
+  .md-form{
+     text-align:left;
+  }
+}
